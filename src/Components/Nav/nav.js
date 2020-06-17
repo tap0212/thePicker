@@ -42,7 +42,7 @@ export default function Nav() {
                     <h2>Meet the developer</h2>
                     <h4>Tapan Awasthi</h4>
                     <div className="social">
-                    <a target="blank"  href="https://github.com/tap0212"><GitHubIcon style={{color:"#323131", padding:"2%"}} className="social-icon"/></a>
+                    <a target="blank"  href="https://github.com/tap0212/thePicker"><GitHubIcon style={{color:"#323131", padding:"2%"}} className="social-icon"/></a>
                     <a target="blank" href="https://www.linkedin.com/in/tapan-awasthi02/"><LinkedInIcon style={{color:"#2767B2", padding:"2%"}} className="social-icon"/></a>
                     <a  target="blank" href="https://www.instagram.com/tapanawasthi_/"><InstagramIcon style={{color:"#E3501B", padding:"2%"}} className="social-icon"/></a>
                     </div>

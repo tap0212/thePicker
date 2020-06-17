@@ -69,7 +69,7 @@ const Tile = (props) => {
 
 
     const handleCopy = (e) => {
-       setIsActive(true)
+       
         const chosenColor = e.target.innerText
         data.map(color => {
             if(color.color[0].toUpperCase() === chosenColor){
