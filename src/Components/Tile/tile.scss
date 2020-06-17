@@ -1,0 +1,87 @@
+.tile{
+    margin-bottom: 8vh;
+    width: 99vw;
+    h2{
+        margin-top: 0;
+        margin-bottom: 3%;
+        margin-left: 3%;
+        padding-top: 0;
+        padding-bottom: 0;
+        font-weight: 300;
+    }
+    .container{
+        margin-bottom: 2vh;
+        .palette{
+            width: 19.65vw;
+            margin: 0vw;
+            height: 18vh;
+            border-radius: 5px;
+            transition: 0.28s all ease-in;
+            transform: scale(1);
+            p{
+                color: white;
+                font-weight: 300;
+                text-align: center;
+                padding-top: 20%;
+            }
+        }
+        .palette:hover, .palette:active{
+            cursor: pointer;
+            transform: scale(1.1);
+            z-index: 9;
+        }
+    }
+}
+
+.color-container{
+    height: 33vh;
+    width: 40vw;
+    overflow: hidden;
+    p{
+        text-align: center;
+        font-weight: 300;
+    }
+    .color{
+        height: 28vh;
+        
+        border-radius: 5px;
+        transition: 0.28s all ease-in;
+        transform: scale(1);
+        p{
+            text-align: center;
+            color: white;
+            padding-top: 50%;
+        }
+    }
+    .color:hover, .color:active{
+        cursor: pointer;
+        transform: scale(1.1);
+        z-index: 9;
+    }
+}
+@media only screen and (min-width:2020px){
+    .color-container{
+        width: 30vw;
+    }
+}
+@media only screen and (min-width:2600px){
+    .color-container{
+        width: 30vw;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:1400px){
+    .color-container{
+        width: 60vw;
+    }
+}
+
+
+@media only screen and (max-width:500px){
+    .color-container{
+        height: 37vh;
+        width: 80vw;
+        p{
+            font-size: 0.8em;
+        }
+    }
+}
