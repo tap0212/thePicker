@@ -42,7 +42,7 @@ const Tile = (props) => {
     useEffect(() => {
         props.setIsFetching(true)
         getData().then(res => {
-            console.log("Done")
+            console.log(res)
             setData(res)
             props.setIsFetching(false)
         })
