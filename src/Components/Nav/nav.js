@@ -19,7 +19,7 @@ export default function Nav() {
     return (
         <div className="nav">
             <h2>thePicker</h2>
-            <a target="blank" href="https://github.com/tap0212/colorPicker">
+            <a target="blank" href="https://github.com/tap0212/thePicker">
                 <GitHubIcon  style={{fontSize:"35"}}/>
             </a>
 
